@@ -16,6 +16,10 @@
         }
     ],
 
+    "require": {
+        "dg/twitter-php": "3.*"
+    },
+
     "autoload": {
         "psr-4": { "Octo\\Twitter\\": "" }
     }
