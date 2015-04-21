@@ -9,7 +9,7 @@ class Tweet extends Block
 {
     public static function getInfo()
     {
-        return ['title' => 'Latest Tweet', 'editor' => false, 'js' => []];
+        return ['title' => 'Latest Tweets', 'editor' => false, 'js' => []];
     }
 
     public function renderNow()
