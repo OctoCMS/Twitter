@@ -14,11 +14,9 @@ use Octo\Twitter\Model\Tweet;
  * Tweet Store
  * @uses Octo\Twitter\Store\Base\TweetStoreBase
  */
-class TweetStore extends Octo\Store
+class TweetStore extends Base\TweetStoreBase
 {
-    use Base\TweetStoreBase;
-
-    /**
+	/**
      * Retrieve a tweet by a Twitter ID for a particular scope
      *
      * @param $twitterId

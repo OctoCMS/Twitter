@@ -12,11 +12,9 @@ use Octo;
  * Tweet Model
  * @uses Octo\Twitter\Model\Base\TweetBaseBase
  */
-class Tweet extends Octo\Model
+class Tweet extends Base\TweetBase
 {
-    use Base\TweetBase;
-
-    /**
+	/**
      * Set the value of TwitterId / twitter_id.
      *
      * @param $value string
